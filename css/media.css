@@ -1,0 +1,327 @@
+@media(max-width:1300px){
+    .skillset__icon{
+        flex-wrap: wrap;
+    }
+    .skillset__icon-company{
+        padding: 50px 150px;
+    }
+    .skillset__icon-company.skillset__icon-company-one{
+        padding: 50px 150px;
+    }
+}
+
+
+@media(max-width:1100px){
+    .header__center-title{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about__inner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about__company{
+        margin-top: 25px;
+    }
+    
+}
+
+
+
+@media(max-width:968px){
+
+    
+    
+    .mobile__button{
+        display: block;
+    }
+    .menu__list{
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 75px;
+        z-index: 10;
+        background-color: rgb(56, 34, 119);
+        width: 100%;
+        height: 330px;
+        text-align: center; 
+    }
+    .menu__list-item a{
+        display: inline-block;
+        margin-top: 34px;
+        font-size: 24px;
+        line-height: 1.3;
+        border-bottom: 1px solid #fff;
+        width: 100%;
+    }
+
+    
+
+
+    .menu__list-item + .menu__list-item {
+        margin-left: 0;
+    }
+    .header__title{
+        font-size: 47px;
+        line-height: 1;
+        text-align: center;
+    }
+    .header__center-title{
+        margin-top: 90px;
+    }
+    .header__text{
+        padding-bottom: 50px;
+    }
+    .work__subtitle{
+        text-align: center;
+    }
+    .work__title{
+        text-align: center;
+    }
+    .work__items{
+        flex-direction: column;
+    }
+    .work__item{
+        width: 100%;
+        text-align: center;
+    }
+    .fhilosophy__title{
+        padding-top: 30px;
+    }
+    .fhilosophy__block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .fhilosophy__block-inner{
+        text-align: center;
+    }
+    .fhilosophy__more{
+        margin-top: 30px;
+    }
+    .skillset__inner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .skillset__title{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .skillset__text{
+        text-align: center;
+    }
+    .skillset__items{
+        text-align: center;
+    }
+    .skillset__icon{
+        display: none;
+    }
+    .project__block-desing{
+        max-width: 100%;
+    }
+    .project__block{
+        max-width: 100%;
+    }
+    .project__inner{
+        flex-direction: column;
+    }
+    .about__people-title{
+        text-align: center;
+    }
+    .about__people-text{
+        text-align: center;
+    }
+    .about__company-block{
+        max-width: 450px;
+        text-align: center;
+    }
+    .about__company-title{
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 250px;
+    }
+    .about__img{
+        margin: 0;
+    }
+    .about__company-name{
+        padding: 0;
+    }
+    .pabout__company-seo{
+        padding: 0;
+    }
+    .about__company{
+        max-width: 636px;
+    }
+    .header__center-title{
+        margin-top: 70px;
+    }
+    .photography__img{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .information__start{
+        flex-direction: column;
+        align-items: center;
+    }
+    .information__let-title {
+        text-align: center;
+    }
+    .information__let-text{
+        text-align: center;
+    }
+}  
+
+
+
+
+
+@media(max-width:890px){
+    .skillset__items-desing{
+        flex-direction: column;
+    }
+    .skillset__item{
+        max-width: 368px;
+        margin-top: 30px;
+    }
+    .header__center-title--two{
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    
+}
+
+
+
+@media(max-width:700px){
+    .photography__img{
+        flex-direction: column;
+        align-items: center;
+    }
+    .information__form{
+        margin-left: 0;
+    }
+}
+
+
+
+@media(max-width:500px){
+    .header__title{
+        font-size: 35px;
+    }
+    
+    .header__text{
+        padding-bottom: 20px;
+        font-size: 17px;
+        text-align: center;
+    }
+    .work__title{
+        font-size: 35px;
+    }
+    .work__item-number{
+        font-size: 90px;
+    }
+    .fhilosophy__title{
+        font-size: 35px;
+    }
+    .fhilosophy__text{
+        font-size: 17px;
+    }
+    .project__title{
+        font-size: 35px;
+        text-align: center;
+    }
+    .about__people-title{
+        font-size: 35px;
+    }
+    .about__company-block{
+        max-width: 270px;
+    }
+    .about__company-title{
+        font-size: 19px;
+    }
+    .pabout__company-seo{
+        margin-bottom: 50px;
+    }
+    .about__company-block{
+        margin-top: 70px;
+    }
+    .photography__img{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .photography__tabs a{
+        margin-top: 10px;
+        margin-left: 5px;
+        width: 130px;
+        height: 50px;
+        padding-top: 15px;
+        text-align: center;
+    }
+    .photography__tabs{
+        text-align: center;
+    }
+    .photography__title{
+        font-size: 35px;
+        text-align: center;
+    }
+    .Photography__subtitle{
+        text-align: center;
+    }
+    .information__form {
+        max-width: 526px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.information__start{
+    flex-direction: column;
+    align-items: center;
+}
+.information__form-action{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.form__name{
+    width: 100%;
+}
+.form__email{
+    width: 100%;
+}
+.form__text{
+    width: 100%;
+}
+.form__button{
+    padding: 24px 40px;
+}
+.information__form{
+    width: 100%;
+}
+.information__let{
+    text-align: center;
+}
+.information__let-title{
+    font-size: 35px;
+}
+.information__start{
+    margin-top: 50px;
+}
+.footer__inner{
+    flex-direction: column;
+    align-items: center;
+}
+.footer__icon{
+    order: 1;
+}
+.footer{
+    margin-top: 50px;
+}
+.footer__copyright{
+    margin-top: 30px;
+    text-align: center;
+}
+.menu__link:hover{
+    display: block;
+}
+}
